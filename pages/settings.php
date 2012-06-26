@@ -36,7 +36,7 @@
 
 <div onmouseover="imgcommander_help('apikey');">
 <h3><label for="key"><?php _e('IMG.Commander API Key'); ?></label></h3>
-<p><input id="key" name="key" type="text" value="<?php echo get_option('imgcommander_api_key'); ?>" style="padding: 5px; width: 200px;" onchange="checkkey(this.value);"/></p>
+<p><input id="key" name="key" type="text" value="<?php echo get_option('imgcommander_api_key'); ?>" style="padding: 5px; width: 200px;"/></p>
 </div>
 
 
@@ -65,7 +65,7 @@
 </div>
 
 
-<p id="imgcommander_submit" class="submit"<?php if (!get_option('imgcommander_api_key')) { ?> style="display: none;"<?php } ?>><input type="submit" name="submit" value="<?php _e('Update options &raquo;'); ?>" /></p>
+<p id="imgcommander_submit" class="submit"><input type="submit" name="submit" value="<?php _e('Update options &raquo;'); ?>" /></p>
 
 </form>
 

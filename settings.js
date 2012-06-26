@@ -10,7 +10,7 @@
 
   	document.getElementById('imgcommander_helpdiv_'+item).style.display = 'block';
   }
-
+              /*
   function checkkey(key)
   {
   	jQuery.post("http://imgcommander.com/call/checkkey", { apikey: key }, keychecked, "json");
@@ -26,4 +26,4 @@
   	} else {
   		jQuery('#imgcommander_submit').show();  		
   	}
-  }
+  }    */

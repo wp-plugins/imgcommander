@@ -3,7 +3,7 @@ Contributors: imgcommander
 Tags: image, images, flickr, media, cc
 Requires at least: 3.3
 Tested up to: 3.4
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 
 The easiest and fastest way to get eye-catching images for your blog post.

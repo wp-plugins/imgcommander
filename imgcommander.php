@@ -6,7 +6,7 @@
 Plugin Name: IMG.Commander
 Plugin URI: http://imgcommander.com/
 Description: The easiest way to get eye-catching images for your blog post. To get started: 1) Click the "Activate" link to the left of this description, 2) <a href="http://imgcommander.com">Sign up for an IMG.Commander API key</a>, and 3) Go to your <a href="plugins.php?page=imgcommander-key-config">IMG.Commander configuration</a> page, and save your API key.
-Version: 0.1
+Version: 0.2
 Author: IMG.Commander
 Author URI: http://imgcommander.com/
 License: GPLv2 or later
@@ -28,7 +28,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
-define('IMGCOMMANDER_VERSION', '0.1');
+define('IMGCOMMANDER_VERSION', '0.2');
 define('IMGCOMMANDER_PLUGIN_URL', plugin_dir_url( __FILE__ ));
 
 if ( !function_exists( 'add_action' ) ) {
