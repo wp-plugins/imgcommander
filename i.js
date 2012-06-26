@@ -36,8 +36,10 @@ function init_commander()
 	if (jQuery('#TB_iframeContent').length && typeof(jQuery('#TB_iframeContent')[0]) != "undefined" && typeof(jQuery('#TB_iframeContent')[0].contentWindow) != "undefined" && typeof(jQuery('#TB_iframeContent')[0].contentWindow.init) != "undefined")
 	{
 		var text = "";
-		if (typeof(tinyMCE) != "undefined" && typeof(tinyMCE.activeEditor) != "undefined")
+		if (typeof(tinyMCE) != "undefined" && typeof(tinyMCE.activeEditor) != "undefined" && tinyMCE.activeEditor)
 			text = tinyMCE.activeEditor.getContent();
+		else if (jQuery("#content").length)
+			text = jQuery("#content").val()
 			
 		jQuery('#TB_iframeContent')[0].contentWindow.init(text);		
 	} else {
