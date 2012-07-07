@@ -1,6 +1,6 @@
 === imgcommander ===
 Contributors: imgcommander
-Tags: image, images, flickr, media, cc
+Tags: image, images, flickr, media, posts, post
 Requires at least: 3.3
 Tested up to: 3.4.1
 Stable tag: 0.3
