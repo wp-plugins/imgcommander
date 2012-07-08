@@ -19,3 +19,10 @@ PS: You'll need an [IMG.Commander API key](http://imgcommander.com/user/) to use
 == Installation ==
 
 Upload the IMG.Commander plugin to your blog, activate it, then enter your [IMG.Commander API key](http://imgcommander.com/user/) on settings page.
+
+== Screenshots ==
+
+1. IMG.Commander button above WordPress textarea. Click to open imgcommander dialog.
+2. Browse images, select the one you like. Or specify your search with keywords.
+3. Preview image, check license and click Use button.
+4. Default WordPress Insert image dialog to specify additional parameters.
