@@ -52,7 +52,7 @@
 
 ?><html>
 <head>
- <script src="http://imgcommander.com/scripts/search_library.js?v=0.1"></script>
+ <script src="http://imgcommander.com/scripts/search_library.js?v=0.2"></script>
  <script> </script>
  <script>
 
